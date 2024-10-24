@@ -44,27 +44,29 @@ Create a node with **EIP**
 ## Step 4: Configure kubectl Access
 
 1. Download the **kubeconfig** file by clicking the cluster and on the right panel find congifure kubectl from the **Connection Info**
+   
 ![image](https://github.com/user-attachments/assets/e2093a22-ee2f-43c3-9ad1-a9d8552acba8)   ![image](https://github.com/user-attachments/assets/3be6f093-dad9-4a9a-8c2b-6afeb3b1bb2b)
 
 2. Go and open kubectl shell on the console and and upload **kubeconfig** file to this shell
+   
 ![image](https://github.com/user-attachments/assets/f5ba4449-a994-46fc-a8dd-eed106d5fe24)    ![image](https://github.com/user-attachments/assets/a216952d-5fcb-48b2-a1c4-408298504953)
 
 
 
-3. Set up your local environment by copying the `kubeconfig.yaml` file to your machine:
+5. Set up your local environment by copying the `kubeconfig.yaml` file to your machine:
    
    ```bash
    mkdir -p ~/.kube
    mv <path_to_kubeconfig_file> ~/.kube/config
    ```
 
-4. Make sure kubectl is installed:
+6. Make sure kubectl is installed:
 
    ```bash
    kubectl version --client
    ```
 
-5.  Switching Kubernetes Contexts
+7.  Switching Kubernetes Contexts
 
 In Kubernetes, each context in your kubeconfig file represents a specific configuration to access a cluster. You can list all available contexts by running the following command:
 

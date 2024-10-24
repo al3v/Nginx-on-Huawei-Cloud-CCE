@@ -185,6 +185,7 @@ Use the external IP of the Load Balancer to access the NGINX web server. You can
    ```
 
 Access the service externally: You should be able to access the NGINX service in your web browser by using the external IP:
+
    ```bash
    http://213.250.136.1:80
    ```
@@ -196,6 +197,18 @@ You should now be able to access the NGINX welcome page in your browser using th
 
 ![image](https://github.com/user-attachments/assets/b13f7714-64f6-44a3-ba6a-9e5d618a151b)
 
+
+
+
+## To delete:
+
+   ```bash
+   kubectl delete service nginx
+   ```
+
+   ```bash
+   kubectl delete deployment nginx-deployment
+   ```
 
 
 

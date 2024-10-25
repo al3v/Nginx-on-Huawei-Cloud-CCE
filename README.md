@@ -132,6 +132,8 @@ kubectl apply -f nginx-deployment.yaml
 
 Create a `nginx-service.yaml` file:
 
+For the load balancer annotions check [here](https://support.huaweicloud.com/intl/en-us/usermanual-cce/cce_10_0385.html)
+
 ```yaml
 apiVersion: v1
 kind: Service

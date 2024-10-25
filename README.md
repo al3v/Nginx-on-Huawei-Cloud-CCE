@@ -175,7 +175,6 @@ Once the service is deployed, you can verify it:
 ```bash
 kubectl get services
 ```
-![image](https://github.com/user-attachments/assets/80e9dc76-48ba-4a9c-90d1-7e93e37a4866)
 
 ---
 

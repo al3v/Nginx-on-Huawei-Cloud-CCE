@@ -21,6 +21,7 @@ Before you start, ensure you have:
    - **Version**: Choose a Kubernetes version (e.g., `v1.29`).
    - **VPC and Subnet**: Use an existing VPC and subnet.
    - **Node Specifications**: Add at least one node to your cluster.
+   - Keep all other settings at their default values
 
 5. Once created, wait for the cluster to enter the **Running** state.
 
